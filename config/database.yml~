@@ -27,23 +27,23 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_development
+  database: blog_development
   pool: 5
-  username: robert
-  password: sample_app
+  username: blog
+  password:
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_test
+  database: blog_development
   pool: 5
-  username: robert
-  password: sample_app
+  username: blog
+  password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_production
+  database: blog_development
   pool: 5
-  username: robert
-  password: sample_app
+  username: blog
+  password:
