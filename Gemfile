@@ -38,6 +38,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'bootstrap-sass', '2.0.0'
 gem 'pg', '0.12.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
@@ -52,6 +53,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.0'
+gem 'annotate', '~> 2.4.1.beta', group: :development
 
 group :test do
   gem 'capybara', '1.1.2'
